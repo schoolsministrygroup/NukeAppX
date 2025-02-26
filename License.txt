@@ -1,6 +1,7 @@
             DO WHAT THE DANG YOU WANT TO PUBLIC LICENSE
                     Version 1, Feb 2025
- Copyright (C) Joshua Miller, Schools Ministry Group 2025 <joshua@smg.net.au>
+
+ Copyright (C) Joshua Miller 2025 <joshua@smg.net.au>
 
  Inspired by WTFPL (Whatever The * You Public License) originally by Sam Hocevar <sam@hocevar.net> (V2 2004)
 
