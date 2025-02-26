@@ -1,0 +1,35 @@
+ If (-not (Test-Path -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned') )
+
+{New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore' -Name "Deprovisioned"}
+
+New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned' -Name "Microsoft.Getstarted_8wekyb3d8bbwe" -Force
+
+New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned' -Name "Microsoft.Messaging_8wekyb3d8bbwe" -Force
+
+New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned' -Name "Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe" -Force
+
+New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned' -Name "Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe" -Force
+
+New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned' -Name "Microsoft.Office.OneNote_8wekyb3d8bbwe" -Force
+
+New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned' -Name "Microsoft.OneConnect_8wekyb3d8bbwe" -Force
+
+New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned' -Name "Microsoft.People_8wekyb3d8bbwe" -Force
+
+New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned' -Name "Microsoft.SkypeApp_kzf8qxf38zg5c" -Force
+
+New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned' -Name "microsoft.windowscommunicationsapps_8wekyb3d8bbwe" -Force
+
+New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned' -Name "Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe" -Force
+
+New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned' -Name "Microsoft.GamingApp_8wekyb3d8bbwe" -Force
+
+New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned' -Name "Microsoft.ZuneMusic_8wekyb3d8bbwe" -Force
+
+New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned' -Name "Microsoft.ZuneVideo_8wekyb3d8bbwe" -Force
+
+New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned' -Name "king.com.FarmHeroesSaga_kgqvnymyfvs32" -Force
+
+New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned' -Name "king.com.CandyCrushFriends_kgqvnymyfvs32" -Force
+
+New-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore\Deprovisioned' -Name "SpotifyAB.SpotifyMusic_1.133.569.0_x86__zpdnekdrzrea0" -Force 
