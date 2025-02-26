@@ -1,13 +1,13 @@
-            DO WHAT THE F YOU WANT TO PUBLIC LICENSE
-                    Version 2, December 2004
+            DO WHAT THE DANG YOU WANT TO PUBLIC LICENSE
+                    Version 1, Feb 2025
+ Copyright (C) Joshua Miller, Schools Ministry Group 2025 <joshua@smg.net.au>
 
- Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+ Inspired by WTFPL (Whatever The * You Public License) originally by Sam Hocevar <sam@hocevar.net> (V2 2004)
 
  Everyone is permitted to copy and distribute verbatim or modified
- copies of this license document, and changing it is allowed as long
- as the name is changed.
+ copies of this license document.
 
-            DO WHAT THE * YOU WANT TO PUBLIC LICENSE
+            DO WHAT THE DANG YOU WANT TO PUBLIC LICENSE
    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
-  0. You just DO WHAT THE * YOU WANT TO.
+  0. You just DO WHAT THE DANG YOU WANT TO.
