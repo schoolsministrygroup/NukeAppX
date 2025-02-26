@@ -98,10 +98,7 @@ Begin {
 
     # Black List of Appx Provisioned Packages to Remove for All Users
     $BlackListedAppsURL = $null
-    $BlackListedAppsURL = "https://github.com/schoolsministrygroup/NukeAppX/blob/master/BuiltInApps/aggresive_blacklist_w11.txt"
-    Write-LogEntry -Value "BlackListedAppsURL:$($BlackListedAppsURL)"
-
-    #Attempt to obtain list of BlackListedApps
+    $BlackListedAppsURL = "https://raw.githubusercontent.com/schoolsministrygroup/NukeAppX/refs/heads/master/BuiltInApps/aggressive_blacklist_w11.txt"
     Try {
         $BlackListedAppsFile = $null
         $BlackListedAppsFile = (New-Object System.Net.WebClient).DownloadString($BlackListedAppsURL)
