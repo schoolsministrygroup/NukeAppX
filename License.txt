@@ -1,3 +1,8 @@
+The following applies to modifications to the original script (unlicensed) only; the original can be found <https://github.com/MSEndpointMgr/Windows> and is contributed to by Ben Whitmore and Nickolaj Andersen @ MSEndpointMgr.
+
+All other intellectual property rights are acknowledged and you should contact the original authors to ask about permissions.
+--
+
             DO WHAT THE DANG YOU WANT TO PUBLIC LICENSE
                     Version 1, Feb 2025
 
@@ -12,3 +17,6 @@
    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
   0. You just DO WHAT THE DANG YOU WANT TO.
+
+--
+All other intellectual property rights are acknowledged and you should contact the original authors to ask about permissions.
