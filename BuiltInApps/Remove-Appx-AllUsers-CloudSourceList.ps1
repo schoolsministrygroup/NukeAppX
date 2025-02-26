@@ -11,9 +11,11 @@
     Use with caution, restoring deleted provisioning packages is not a simple process.
 
     ##TIP##
-    If removing "MicrosoftTeams", also consider disabling the "Chat" icon on the taskbar, using INtune settingd catalog, as clicking this will re-install the appxpackage for the user.
+    If removing "MicrosoftTeams", also consider disabling the "Chat" icon on the taskbar, using INtune settings catalog, as clicking this will re-install the appxpackage for the user.
 
 .NOTES
+
+    See License.txt for all modifications to the original script as described by it's original authors.
 
     Idea based on an original script for Windows 10 app removal / Credit to: Nickolaj Andersen @ MSEndpointMgr
     Modifications to original script to Black list Appx instead of Whitelist
@@ -21,7 +23,7 @@
     FileName:    Remove-Appx-AllUsers-CloudSourceList.ps1
     Author:      Ben Whitmore
     Contact:     @byteben
-    Date:        27th June 2022
+    Edited:      27 Feb 2025
 
 #>
 
@@ -96,7 +98,7 @@ Begin {
 
     # Black List of Appx Provisioned Packages to Remove for All Users
     $BlackListedAppsURL = $null
-    $BlackListedAppsURL = "https://raw.githubusercontent.com/MSEndpointMgr/Windows/master/BuiltInApps/blacklist_w11.txt"
+    $BlackListedAppsURL = "https://github.com/schoolsministrygroup/NukeAppX/blob/master/BuiltInApps/aggresive_blacklist_w11.txt"
     Write-LogEntry -Value "BlackListedAppsURL:$($BlackListedAppsURL)"
 
     #Attempt to obtain list of BlackListedApps
