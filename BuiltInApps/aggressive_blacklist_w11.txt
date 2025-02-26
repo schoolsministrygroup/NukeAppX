@@ -44,5 +44,8 @@ Microsoft.XboxSpeechToTextOverlay
 Microsoft.YourPhone
 Microsoft.ZuneMusic
 Microsoft.ZuneVideo
-#MicrosoftTeams
 MicrosoftWindows.Client.WebExperience
+
+<#
+# #MicrosoftTeams
+#>
